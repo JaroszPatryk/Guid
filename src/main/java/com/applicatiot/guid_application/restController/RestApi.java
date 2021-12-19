@@ -5,9 +5,9 @@ import com.applicatiot.guid_application.domain.ServiceGuid;
 import com.sun.istack.NotNull;
 import org.springframework.web.bind.annotation.*;
 
-import javax.ws.rs.*;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 
 @RestController
 @RequestMapping("/guid/")
